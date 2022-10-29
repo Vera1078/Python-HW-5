@@ -28,7 +28,7 @@ message = ['твоя очередь', 'да бери уже', 'бери боль
 
 
 def player_vs_player():
-    candies_total = 150
+    candies_total = 2021
     max_take = 28
     count = 0
     player_1 = input('\nКак тебя зовут?: ')
@@ -81,7 +81,7 @@ def player_vs_player():
 
 
 def player_vs_bot():
-    candies_total = 150
+    candies_total = 2021
     max_take = 28
     player_1 = input('\nКак тебя зовут? ')
     player_2 = 'Компьютер'
