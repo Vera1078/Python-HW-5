@@ -77,7 +77,7 @@ def player_vs_player():
         print(f'{lucky} ПОБЕДИЛ')
 
 
-# player_vs_player()
+player_vs_player()
 
 
 def player_vs_bot():
