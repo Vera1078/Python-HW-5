@@ -27,18 +27,18 @@ def rle_encode(text):
     for char in text: 
             # Если предыдущие и текущие символы не совпадают 
         if char != prev_char: 
-                # затем добавьте количество и символ в нашу кодировку 
+                # затем добавим количество и символ в нашу кодировку 
                
             if prev_char: 
                 encoding += str(count) + prev_char 
             count = 1 
             prev_char = char 
         else: 
-                # Или увеличьте наш счетчик, если символы действительно совпадают
+                # Или увеличим наш счетчик, если символы действительно совпадают
               
             count += 1 
     else: 
-         # Завершите кодировку
+         # Завершим кодировку
         encoding += str(count) + prev_char 
         return encoding
 
